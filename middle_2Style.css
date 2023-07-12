@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contentContainer {
+    width: 955px;
+    height: 566px;
+    margin: 100px auto;
+}
+
+.contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentHeader .top20 p:nth-child(1), .contentHeader .bestTheme p:nth-child(1){
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    margin-bottom: 8px;
+}
+
+.contentHeader .top20 p:last-child{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: #666666;
+}
+
+.fa-angle-left, .fa-angle-right{
+    font-size: 20px;
+}
+
+.fa-angle-left:hover, .fa-angle-right:hover{
+    color: #3f3fff;
+}
+
+.fa-angle-left{
+    color: #969696;
+    margin-right: 15px;
+}
+
+.subContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+.mainContainer .top20SubContainer p{
+    width: 175px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-break: break-all;
+}
+
+.mainContainer .subContainer p:nth-child(2){
+    color: #969696;
+    font-size: 13px;
+}
+
+.card{
+    position: relative;
+}
+
+.thumbNail {
+    width: 175px;
+    height: 175px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.thumbNail:hover{
+    filter: brightness(0.75);
+}
+
+.up {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #3f3fff;
+    color: white;
+}
+
+.bestThemeSubContainer p{
+    width: 175px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.bestThemeSubContainer .fa-play{
+    position: absolute;
+    font-size: 30px;
+    bottom: 65px;
+    right: 12px;
+}
+
+.bestThemeSubContainer .fa-play:hover{
+    color: #3f3fff;
+}
