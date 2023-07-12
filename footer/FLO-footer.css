@@ -1,0 +1,56 @@
+footer {
+    font-family: "Pretend Variable";
+    width: 957px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.banner {
+    height: 170px;
+}   
+
+.menu{
+    font-size: 13px;
+}
+
+.menu-1 {
+    display: inline-block;
+    text-align: left;
+}
+
+.menu-2 {
+    display: inline-block;
+    text-align: right;
+}
+
+.menu-2 img {
+    height: 20px;
+}
+
+.menu-title {
+    font-weight: bold;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-link:hover {
+    color: blue;
+}
+
+.banner {
+    margin: 60px 0px 60px 0px;
+}
+
+.footer-info-1{
+    font-size: 12px;
+}
+
+.footer-info-2{
+    font-size: 11px;
+}
