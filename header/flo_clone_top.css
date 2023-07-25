@@ -71,8 +71,7 @@ input {
     color: rgb(140 140 140);
 }
 
-
-#box {
+#carouselExampleIndicators {
     position: relative;
     height: 320px;
     width: 955px;
@@ -80,6 +79,24 @@ input {
     border-radius: 8px;
     left: 280px;
     top: -60px;
+}
+
+/* .carousel-control-prev {
+    position: absolute;
+    left: -37px;
+    top: 143px;
+}
+
+.carousel-control-next {
+    position: absolute;
+    left: 972px;
+    top: 143px;
+} */
+
+
+.carousel-inner {
+    height: 100%;
+    width: 100%;
 }
 
 .introduce {
@@ -102,25 +119,21 @@ input {
     font-size: 14px;
 }
 
-#box .img1 {
+.img1 {
     position: absolute;
     left: 42px;
     top: 225px;
+    width: 50px;
+    height: 50px;
 }
 
-#box .img2 {
-    position: absolute;
-    left: -42px;
-    top: 140px;
-}
-
-#box .img3 {
+.img3 {
     position: absolute;
     left: 970px;
     top: 140px;
 }
 
-#box .img4 {
+.img4 {
     position: absolute;
     left: 320px;
     top: 42px;
@@ -128,7 +141,7 @@ input {
     height: 43px;
 }
 
-#box .img5 {
+.img5 {
     position: absolute;
     left: 320px;
     top: 105px;
@@ -136,7 +149,7 @@ input {
     height: 43px;
 }
 
-#box .img6 {
+.img6 {
     position: absolute;
     left: 320px;
     top: 168px;
@@ -144,7 +157,7 @@ input {
     height: 43px;
 }
 
-#box .img7 {
+.img7 {
     position: absolute;
     left: 320px;
     top: 231px;
@@ -152,7 +165,7 @@ input {
     height: 43px;
 }
 
-#box .img8 {
+.img8 {
     position: absolute;
     left: 624px;
     top: 42px;
@@ -160,7 +173,7 @@ input {
     height: 43px;
 }
 
-#box .img9 {
+.img9 {
     position: absolute;
     left: 624px;
     top: 105px;
@@ -168,7 +181,7 @@ input {
     height: 43px;
 }
 
-#box .img10 {
+.img10 {
     position: absolute;
     left: 624px;
     top: 168px;
@@ -176,7 +189,7 @@ input {
     height: 43px;
 }
 
-#box .img11 {
+.img11 {
     position: absolute;
     left: 624px;
     top: 231px;
@@ -184,7 +197,64 @@ input {
     height: 43px;
 }
 
+#int1 {
+    position: absolute;
+    left: 390px;
+    top: 40px;
+}
 
+#int2 {
+    position: absolute;
+    left: 390px;
+    top: 110px;
+}
 
+#int3 {
+    position: absolute;
+    left: 390px;
+    top: 170px;
+}
+
+#int4 {
+    position: absolute;
+    left: 390px;
+    top: 230px;
+}
+
+#int5 {
+    position: absolute;
+    left: 690px;
+    top: 40px;
+}
+
+#int6 {
+    position: absolute;
+    left: 690px;
+    top: 110px;
+}
+
+#int7 {
+    position: absolute;
+    left: 690px;
+    top: 170px;
+}
+
+#int8 {
+    position: absolute;
+    left: 690px;
+    top: 230px;
+}
+
+.title {
+    text-align: left;
+    font-size: 15px;
+    color: white;
+}
+
+.singer {
+    text-align: left;
+    font-size: 12px;
+    color: #C0C0C0;
+}
 
 
