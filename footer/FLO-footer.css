@@ -1,56 +1,111 @@
 footer {
     font-family: "Pretend Variable";
+    color: gray;
     width: 957px;
     margin: auto;
 }
 
-ul{
-    list-style-type: none;
-}
+/* 합칠 때 앞에 .footer 붙이기
+    폰트, 이미지 크기 조정 */
 
+/* 배너 이미지 */
 .banner {
     height: 170px;
-}   
-
-.menu{
-    font-size: 13px;
-}
-
-.menu-1 {
-    display: inline-block;
-    text-align: left;
-}
-
-.menu-2 {
-    display: inline-block;
-    text-align: right;
-}
-
-.menu-2 img {
-    height: 20px;
-}
-
-.menu-title {
-    font-weight: bold;
-}
-
-.menu-link {
-    text-decoration: none;
-    color: black;
-}
-
-.menu-link:hover {
-    color: blue;
-}
-
-.banner {
+    border-radius: 7px; /* 모서리 둥글게 */
     margin: 60px 0px 60px 0px;
 }
 
-.footer-info-1{
+hr{
+    border: 0;
+    height: 0.5px;
+    background: lightgray;
+}
+
+ul{
+    list-style-type: none;
+    vertical-align: top;
+}
+
+li{
+    line-height: 33px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.link:hover {
+    color: blue;
+}
+
+/* menu */
+.menu{
+    font-size: 13px;
+    margin: 20px 0 20px 0;
+}
+
+/* menu 1 */
+.menu-1 {
+    display: inline-block;
+    text-align: left;
+    width: 191.4px;
+    padding: 0px;
+}
+
+.menu-1 .title {
+    color: black;
+    font-weight: bolder;
+}
+
+/* menu 2 */
+.menu-2 {
+    display: inline-block;
+    float: right;
+}
+
+.menu-2 img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* info */
+.info{
+    line-height: 18px;
+}
+
+.info br{
+    line-height: 15px;
+}
+
+.info .line{
+    margin: 2px;
+    /* 원본이 더 올라가있음 */
+}
+
+/* info 1 */
+.info-1{
     font-size: 12px;
 }
 
-.footer-info-2{
+.info-1 .bold{
+    font-weight: bolder;
+}
+
+/* info 2 */
+.info-2{
+    font-size: 11px;
+    color: silver;
+}
+
+/* info 3 */
+.info-3{
     font-size: 11px;
 }
+
+.info-3 .right{
+    float: right;
+    color: silver;
+}
+
