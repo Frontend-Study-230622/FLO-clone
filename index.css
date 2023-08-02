@@ -266,6 +266,110 @@ nav ul li a {
 
 /* 문서인 */
 /* main1 */
+main1 .header {
+    width: 975px;
+    display:block;
+}
+
+main1 .header .todaysong a, main1 .header .daily p{
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-bottom: 8px;
+    color:black;
+}
+
+main1 .todaysong a:hover {
+    color:#3f3fff;
+}
+
+main1 .fa-chevron-right {
+    color:black;
+}
+
+
+
+main1 ul {
+    list-style: none;
+    display: flex;
+}
+
+main1 li { padding: 6px }
+
+main1 .select a{
+    color: black;
+    font-size: 12px;
+}
+  
+main1 .image-container1, main1 .image-container2 {
+    width: 975px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+main1 .song, main1 .chart {
+    width: 175px;
+    text-align: left;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+main1 .mainsong p, main1 .chart-name {
+    color :black;
+    font-size: 12px;
+    margin: 7px;
+}
+
+main1 .mainsong .song1 p:nth-child(1), main1 .mainsong .song2 p:nth-child(1){
+    margin-bottom: 1px;
+
+}
+
+main1 .mainsong .song1 p:nth-child(2), main1 .mainsong .song2 p:nth-child(2){
+    color:grey;
+    margin-top: 1px;
+}
+
+
+main1 .songim, main1 .chartim {
+    width: 175px;
+    height: 170px;
+    border-radius: 6px;
+}
+
+main1 .song1 {
+    position: relative;
+    overflow: visible;
+}
+
+main1 .song i {
+    background-color:transparent;
+    position: absolute;
+    border: none;
+    bottom: 75px;
+    right: 15px;
+}
+
+main1 .chart i{
+    background-color:transparent;
+    position: absolute;
+    border: none;
+    bottom: 60px;
+    right: 15px;
+}
+
+main1 .song:hover, main1 .chart:hover{
+    filter: brightness(0.75);
+}
+
+main1 .fa-chevron-left:hover, main1 .fa-chevron-right:hover, main1 .song p:nth-child(1):hover, main1 .song p:nth-child(2):hover, main1 .chart-name:hover {
+    color: #3f3fff;
+}
 
 /* 이광호 */
 /* main2 */
