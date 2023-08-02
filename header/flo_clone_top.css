@@ -3,7 +3,7 @@ header {
     margin-top: 42px;
 }
 
-#logo {
+#header_logo {
     position: relative;
     left: 0px;
     top: 0px;
@@ -30,20 +30,25 @@ nav ul li a {
     margin-left: 15px;
 }
 
-.search {
+.header_search {
     position: relative;
     top: -65px;
     left: 335px;
     width: 350px;
 }
 
-input {
+.header_input::placeholder {
+    text-indent: 35px;
+    font-size: small;
+}
+
+.header_input {
     width: 100%;
     border: 1px solid #bbb;
     border-radius: 10px;
 }
 
-.search img {
+.header_search img {
     position: absolute;
     top: 5px;
     left: 8px;
@@ -99,7 +104,7 @@ input {
     width: 100%;
 }
 
-.introduce {
+.header_introduce {
     position: absolute;
     left: 40px;
     top: 45px;
@@ -111,7 +116,7 @@ input {
     height: 64px;
 }
 
-.introduce_2{
+.header_introduce_2{
     position: absolute;
     left: 40px;
     top: 140px;
@@ -119,7 +124,7 @@ input {
     font-size: 14px;
 }
 
-.img1 {
+.header_img1 {
     position: absolute;
     left: 42px;
     top: 225px;
@@ -127,13 +132,13 @@ input {
     height: 50px;
 }
 
-.img3 {
+.header_img3 {
     position: absolute;
     left: 970px;
     top: 140px;
 }
 
-.img4 {
+.header_img4 {
     position: absolute;
     left: 320px;
     top: 42px;
@@ -141,7 +146,7 @@ input {
     height: 43px;
 }
 
-.img5 {
+.header_img5 {
     position: absolute;
     left: 320px;
     top: 105px;
@@ -149,7 +154,7 @@ input {
     height: 43px;
 }
 
-.img6 {
+.header_img6 {
     position: absolute;
     left: 320px;
     top: 168px;
@@ -157,7 +162,7 @@ input {
     height: 43px;
 }
 
-.img7 {
+.header_img7 {
     position: absolute;
     left: 320px;
     top: 231px;
@@ -165,7 +170,7 @@ input {
     height: 43px;
 }
 
-.img8 {
+.header_img8 {
     position: absolute;
     left: 624px;
     top: 42px;
@@ -173,7 +178,7 @@ input {
     height: 43px;
 }
 
-.img9 {
+.header_img9 {
     position: absolute;
     left: 624px;
     top: 105px;
@@ -181,7 +186,7 @@ input {
     height: 43px;
 }
 
-.img10 {
+.header_img10 {
     position: absolute;
     left: 624px;
     top: 168px;
@@ -189,7 +194,7 @@ input {
     height: 43px;
 }
 
-.img11 {
+.header_img11 {
     position: absolute;
     left: 624px;
     top: 231px;
@@ -197,61 +202,61 @@ input {
     height: 43px;
 }
 
-#int1 {
+#header_int1 {
     position: absolute;
     left: 390px;
     top: 40px;
 }
 
-#int2 {
+#header_int2 {
     position: absolute;
     left: 390px;
     top: 110px;
 }
 
-#int3 {
+#header_int3 {
     position: absolute;
     left: 390px;
     top: 170px;
 }
 
-#int4 {
+#header_int4 {
     position: absolute;
     left: 390px;
     top: 230px;
 }
 
-#int5 {
+#header_int5 {
     position: absolute;
     left: 690px;
     top: 40px;
 }
 
-#int6 {
+#header_int6 {
     position: absolute;
     left: 690px;
     top: 110px;
 }
 
-#int7 {
+#header_int7 {
     position: absolute;
     left: 690px;
     top: 170px;
 }
 
-#int8 {
+#header_int8 {
     position: absolute;
     left: 690px;
     top: 230px;
 }
 
-.title {
+.header_title {
     text-align: left;
     font-size: 15px;
     color: white;
 }
 
-.singer {
+.header_singer {
     text-align: left;
     font-size: 12px;
     color: #C0C0C0;
