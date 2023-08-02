@@ -1,0 +1,121 @@
+/* 조하상 */
+/* header */
+
+/* 문서인 */
+/* main1 */
+
+/* 이광호 */
+/* main2 */
+
+
+/* footer */
+footer {
+    font-family: "Pretend Variable";
+    color: gray;
+    width: 957px;
+    margin: auto;
+}
+
+/* 합칠 때 앞에 .footer 붙이기
+    폰트, 이미지 크기 조정 */
+
+/* 배너 이미지 */
+.footer .banner {
+    height: 170px;
+    border-radius: 7px; /* 모서리 둥글게 */
+    margin: 60px 0px 60px 0px;
+}
+
+.footer hr{
+    border: 0;
+    height: 0.5px;
+    background: lightgray;
+}
+
+.footer ul{
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.footer li{
+    line-height: 33px;
+    text-align: left;
+}
+
+.footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .link:hover {
+    color: blue;
+}
+
+/* menu */
+.footer .menu{
+    font-size: 13px;
+    margin: 20px 0 20px 0;
+}
+
+/* menu 1 */
+.footer .menu-1 {
+    display: inline-block;
+    text-align: left;
+    width: 191.4px;
+    padding: 0px;
+}
+
+.footer .menu-1 .title {
+    color: black;
+    font-weight: bolder;
+}
+
+/* menu 2 */
+.footer .menu-2 {
+    display: inline-block;
+    float: right;
+}
+
+.footer .menu-2 img {
+    height: 15px;
+    margin-left: 10px;
+}
+
+/* info */
+.footer .info{
+    line-height: 18px;
+}
+
+.footer .info br{
+    line-height: 15px;
+}
+
+.footer .info .line{
+    margin: 2px;
+    /* 원본이 더 올라가있음 */
+}
+
+/* info 1 */
+.footer .info-1{
+    font-size: 12px;
+}
+
+.footer .info-1 .bold{
+    font-weight: bolder;
+}
+
+/* info 2 */
+.footer .info-2{
+    font-size: 11px;
+    color: silver;
+}
+
+/* info 3 */
+.footer .info-3{
+    font-size: 11px;
+}
+
+.footer .info-3 .right{
+    float: right;
+    color: silver;
+}
