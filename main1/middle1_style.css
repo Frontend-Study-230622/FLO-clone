@@ -2,12 +2,12 @@
     text-decoration: none;
 }
 
-.header {
+.main1 .header {
     width: 975px;
     display:block;
 }
 
-.header .todaysong a, .header .daily p{
+.main1 .header .todaysong a, .header .daily p{
     font-size: 23px;
     font-weight: 600;
     letter-spacing: -1.5px;
@@ -15,29 +15,29 @@
     color:black;
 }
 
-.todaysong a:hover {
+.main1 .todaysong a:hover {
     color:#3f3fff;
 }
 
-.fa-chevron-right {
+.main1 .fa-chevron-right {
     color:black;
 }
 
 
 
-ul {
+.main1 ul {
     list-style: none;
     display: flex;
 }
 
 li { padding: 6px }
 
-.select a{
+.main1 .select a{
     color: black;
     font-size: 12px;
 }
   
-.image-container1, .image-container2 {
+.main1 .image-container1, .image-container2 {
     width: 975px;
     margin-left: auto;
     margin-right: auto;
@@ -45,7 +45,7 @@ li { padding: 6px }
 
 }
 
-.song, .chart {
+.main1 .song, .chart {
     width: 175px;
     text-align: left;
     display: block;
@@ -55,36 +55,36 @@ li { padding: 6px }
     
 }
 
-.mainsong p, .chart-name {
+.main1 .mainsong p, .chart-name {
     color :black;
     font-size: 12px;
     margin: 7px;
 }
 
-.mainsong .song1 p:nth-child(1), .mainsong .song2 p:nth-child(1){
+.main1 .mainsong .song1 p:nth-child(1), .mainsong .song2 p:nth-child(1){
     margin-bottom: 1px;
 
 }
 
-.mainsong .song1 p:nth-child(2), .mainsong .song2 p:nth-child(2){
+.main1 .mainsong .song1 p:nth-child(2), .mainsong .song2 p:nth-child(2){
     color:grey;
     margin-top: 1px;
 }
 
 
-.songim, .chartim {
+.main1 .songim, .chartim {
     width: 175px;
     height: 170px;
     border-radius: 6px;
 }
 
-.song1 {
+.main1 .song1 {
     position: relative;
     overflow: visible;
 }
 
 
-.song i {
+.main1 .song i {
     background-color:transparent;
     position: absolute;
     border: none;
@@ -92,19 +92,19 @@ li { padding: 6px }
     right: 15px;
 }
 
-.chart i{
+.main1 .chart i{
     background-color:transparent;
     position: absolute;
     border: none;
-    bottom: 60px;
+    bottom: 55px;
     right: 15px;
 }
 
-.song:hover, .chart:hover{
+.main1 .song:hover, .chart:hover{
     filter: brightness(0.75);
 }
 
-.fa-chevron-left:hover, .fa-chevron-right:hover, .song p:nth-child(1):hover, .song p:nth-child(2):hover, .chart-name:hover {
+.main1 .fa-chevron-left:hover, .fa-chevron-right:hover, .song p:nth-child(1):hover, .song p:nth-child(2):hover, .chart-name:hover {
     color: #3f3fff;
 }
 
