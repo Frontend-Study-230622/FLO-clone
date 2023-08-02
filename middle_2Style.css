@@ -3,46 +3,46 @@
     margin: 0;
 }
 
-.contentContainer {
+.main2 .contentContainer {
     width: 955px;
     height: 566px;
     margin: 100px auto;
 }
 
-.contentHeader {
+.main2 .contentHeader {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.contentHeader .top20 p:nth-child(1), .contentHeader .bestTheme p:nth-child(1){
+.main2 .contentHeader .top20 p:nth-child(1), .main2 .contentHeader .bestTheme p:nth-child(1){
     font-size: 22px;
     font-weight: 700;
     letter-spacing: -1.5px;
     margin-bottom: 8px;
 }
 
-.contentHeader .top20 p:last-child{
+.main2 .contentHeader .top20 p:last-child{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -1px;
     color: #666666;
 }
 
-.fa-angle-left, .fa-angle-right{
+.main2 .fa-angle-left, .main2 .fa-angle-right{
     font-size: 20px;
 }
 
-.fa-angle-left:hover, .fa-angle-right:hover{
+.main2 .fa-angle-left:hover, .main2 .fa-angle-right:hover{
     color: #3f3fff;
 }
 
-.fa-angle-left{
+.main2 .fa-angle-left{
     color: #969696;
     margin-right: 15px;
 }
 
-.subContainer{
+.main2 .subContainer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,7 +50,7 @@
 }
 
 
-.mainContainer .top20SubContainer p{
+.main2 .mainContainer .top20SubContainer p{
     width: 175px;
     font-size: 15px;
     font-weight: 400;
@@ -61,32 +61,32 @@
     word-break: break-all;
 }
 
-.mainContainer .subContainer p:nth-child(2){
+.main2 .mainContainer .subContainer p:nth-child(2){
     color: #969696;
     font-size: 13px;
 }
 
-.card{
+.main2 .card{
     position: relative;
 }
 
-.thumbNail {
+.main2 .thumbNail {
     width: 175px;
     height: 175px;
     border-radius: 6px;
     margin-bottom: 12px;
 }
 
-.thumbNail:hover{
+.main2 .thumbNail:hover{
     filter: brightness(0.75);
 }
 
-.up {
+.main2 .up {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 800;
     padding: 5px;
     border-radius: 50%;
     text-align: center;
@@ -96,19 +96,20 @@
     color: white;
 }
 
-.bestThemeSubContainer p{
+.main2 .bestThemeSubContainer p{
     width: 175px;
     font-size: 15px;
     font-weight: 400;
 }
 
-.bestThemeSubContainer .fa-play{
+.main2 .bestThemeSubContainer .fa-play{
     position: absolute;
     font-size: 30px;
     bottom: 65px;
     right: 12px;
+    color: #ffffff;
 }
 
-.bestThemeSubContainer .fa-play:hover{
-    color: #3f3fff;
+.main2 .bestThemeSubContainer .fa-play:hover{
+    color: blue;
 }
