@@ -32,22 +32,33 @@ nav ul li a {
     margin-left: 15px;
 }
 
+.header_search_circle {
+    width: 350px;
+    height: 32px;
+    border: 1px solid #bbb;
+    border-radius: 30px;
+}
+
 .header_search {
     position: relative;
     top: -65px;
     left: 335px;
-    width: 350px;
 }
 
 .header_input::placeholder {
-    text-indent: 35px;
     font-size: small;
 }
 
 .header_input {
-    width: 100%;
-    border: 1px solid #bbb;
-    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 38px;
+    border-radius: 30px;
+    width: 310px;
+    height: 28px;
+    border: 0px;
+    outline: none;
+    
 }
 
 .header_search img {
