@@ -32,22 +32,33 @@ nav ul li a {
     margin-left: 15px;
 }
 
+.header_search_circle {
+    width: 350px;
+    height: 32px;
+    border: 1px solid #bbb;
+    border-radius: 30px;
+}
+
 .header_search {
     position: relative;
     top: -65px;
     left: 335px;
-    width: 350px;
 }
 
 .header_input::placeholder {
-    text-indent: 35px;
     font-size: small;
 }
 
 .header_input {
-    width: 100%;
-    border: 1px solid #bbb;
-    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 38px;
+    border-radius: 30px;
+    width: 310px;
+    height: 28px;
+    border: 0px;
+    outline: none;
+    
 }
 
 .header_search img {
@@ -375,114 +386,113 @@ main1 .fa-chevron-left:hover, main1 .fa-chevron-right:hover, main1 .song p:nth-c
 /* main2 */
 
 
-/* footer */
-footer {
+/*footer */footer {
     font-family: "Pretend Variable";
     color: gray;
     width: 957px;
     margin: auto;
 }
 
-/* 합칠 때 앞에 .footer 붙이기
+/* 합칠 때 앞에 footer 붙이기
     폰트, 이미지 크기 조정 */
 
 /* 배너 이미지 */
-.footer .banner {
+footer .banner {
     height: 170px;
     border-radius: 7px; /* 모서리 둥글게 */
     margin: 60px 0px 60px 0px;
 }
 
-.footer hr{
+footer hr{
     border: 0;
     height: 0.5px;
     background: lightgray;
 }
 
-.footer ul{
+footer ul{
     list-style-type: none;
     vertical-align: top;
 }
 
-.footer li{
+footer li{
     line-height: 33px;
     text-align: left;
 }
 
-.footer a {
+footer a {
     text-decoration: none;
     color: gray;
 }
 
-.footer .link:hover {
+footer .link:hover {
     color: blue;
 }
 
 /* menu */
-.footer .menu{
+footer .menu{
     font-size: 13px;
     margin: 20px 0 20px 0;
 }
 
 /* menu 1 */
-.footer .menu-1 {
+footer .menu-1 {
     display: inline-block;
     text-align: left;
     width: 191.4px;
     padding: 0px;
 }
 
-.footer .menu-1 .title {
+footer .menu-1 .title {
     color: black;
     font-weight: bolder;
 }
 
 /* menu 2 */
-.footer .menu-2 {
+footer .menu-2 {
     display: inline-block;
     float: right;
 }
 
-.footer .menu-2 img {
+footer .menu-2 img {
     height: 15px;
     margin-left: 10px;
 }
 
 /* info */
-.footer .info{
+footer .info{
     line-height: 18px;
 }
 
-.footer .info br{
+footer .info br{
     line-height: 15px;
 }
 
-.footer .info .line{
+footer .info .line{
     margin: 2px;
     /* 원본이 더 올라가있음 */
 }
 
 /* info 1 */
-.footer .info-1{
+footer .info-1{
     font-size: 12px;
 }
 
-.footer .info-1 .bold{
+footer .info-1 .bold{
     font-weight: bolder;
 }
 
 /* info 2 */
-.footer .info-2{
+footer .info-2{
     font-size: 11px;
     color: silver;
 }
 
 /* info 3 */
-.footer .info-3{
+footer .info-3{
     font-size: 11px;
 }
 
-.footer .info-3 .right{
+footer .info-3 .right{
     float: right;
     color: silver;
 }
