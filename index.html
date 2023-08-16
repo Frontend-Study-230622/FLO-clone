@@ -4,12 +4,18 @@
 <head>
     <title>지금 당신의 음악, FLO</title>
     <link rel="stylesheet" href="index.css">
-    <!-- 조하상 -->
-    
-    <!-- 문서인 -->
+    <!-- header -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a409036899.js" crossorigin="anonymous"></script>
+    <!-- main1 -->
     <script src="https://kit.fontawesome.com/b2f264d028.js" crossorigin="anonymous"></script>
 
-    <!-- 이광호 -->
+    <!-- main2 -->
+    <script src="https://kit.fontawesome.com/f04a88374e.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f04a88374e.js" crossorigin="anonymous"></script>
 
     <!-- footer -->
     <link rel="stylesheet"
@@ -18,203 +24,746 @@
 
 <body>
     <header>
-        <!-- 조하상 -->
+        <!-- header -->
+        <div id="header_logo">
+            <img src="Images/header/FLO.PNG">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">둘러보기</a></li>
+                <li><a href="#">보관함</a></li>
+                <li><a href="#">이용권</a></li>
+            </ul>
+        </nav>
+        <div class="header_search">
+            <div class="header_search_circle"></div>
+            <input class="header_input" type="text" placeholder="검색어를 입력하세요.">
+            <img src="Images/header/reading_glass.PNG">
+        </div>
+        <div class="header-right">
+            <ul>
+                <li><a href="#">크리에이터 스튜디오</a></li>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
     </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="header_introduce">일하는 중 귀로 떠나는 여행</div>
+                <div class="header_introduce_2">총 15곡 | 2023.02.21</div>
+                <div id=header_int1>
+                    <div class="header_title">Feelin'So Damn Fine</div>
+                    <div class="header_singer">Park Bird</div>
+                </div>
+                <div id=header_int2>
+                    <div class="header_title">&#60;3 Song</div>
+                    <div class="header_singer">Benevolnce</div>
+                </div>
+                <div id=header_int3>
+                    <div class="header_title">on the move</div>
+                    <div class="header_singer">Zamir</div>
+                </div>
+                <div id=header_int4>
+                    <div class="header_title">Trouble in Paradise</div>
+                    <div class="header_singer">The F16s</div>
+                </div>
+                <div id=header_int5>
+                    <div class="header_title">Mariposa &#40;Explicit Ver. &#41;</div>
+                    <div class="header_singer">Peach Tree Rascals</div>
+                </div>
+                <div id=header_int6>
+                    <div class="header_title">More Than Friends</div>
+                    <div class="header_singer">Aidan Bissett</div>
+                </div>
+                <div id=header_int7>
+                    <div class="header_title">Something To Cry About</div>
+                    <div class="header_singer">Tai Verdes</div>
+                </div>
+                <div id=header_int8>
+                    <div class="header_title">All In &#40;Feat. Che Lingo&#41;</div>
+                    <div class="header_singer">Kartell</div>
+                </div>
+
+
+                <img src="src/play_button.svg" class="header_img1" alt="...">
+                <img src="Images/header/album1.jpg" class="header_img4" alt="...">
+                <img src="Images/header/album2.jpg" class="header_img5" alt="...">
+                <img src="Images/header/album3.jpg" class="header_img6" alt="...">
+                <img src="Images/header/album4.jpg" class="header_img7" alt="...">
+                <img src="Images/header/album5.jpg" class="header_img8" alt="...">
+                <img src="Images/header/album6.jpg" class="header_img9" alt="...">
+                <img src="Images/header/album7.jpg" class="header_img10" alt="...">
+                <img src="Images/header/album8.jpg" class="header_img11" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <div class="header_introduce">오늘 밤은 K-시티팝 타고 야반도주</div>
+                <div class="header_introduce_2">총 15곡 | 2023.02.10</div>
+                <div id=header_int1>
+                    <div class="header_title">Warp Drive</div>
+                    <div class="header_singer">소울라이츠</div>
+                </div>
+                <div id=header_int2>
+                    <div class="header_title">도시의밤 &#40;Feat. 김주리&#41;</div>
+                    <div class="header_singer">BehindtheMoon</div>
+                </div>
+                <div id=header_int3>
+                    <div class="header_title">Tell me why</div>
+                    <div class="header_singer">The Hills &#40;더 힐스&#41;</div>
+                </div>
+                <div id=header_int4>
+                    <div class="header_title">샛별</div>
+                    <div class="header_singer">레인보우 노트</div>
+                </div>
+                <div id=header_int5>
+                    <div class="header_title">야반도주 &#40;With 조영현&#41;</div>
+                    <div class="header_singer">타코앤제이형</div>
+                </div>
+                <div id=header_int6>
+                    <div class="header_title">오늘 밤 뭐해?&#40;Prod. 노르웨이 숲&#41;</div>
+                    <div class="header_singer">유키카</div>
+                </div>
+                <div id=header_int7>
+                    <div class="header_title">우리의 밤&#40;Our Night&#41;</div>
+                    <div class="header_singer">NaRN &#40;나른&#41;</div>
+                </div>
+                <div id=header_int8>
+                    <div class="header_title">Ondo &#40;with 이하이&#41;</div>
+                    <div class="header_singer">Bronze &#40;브론즈&#41;</div>
+                </div>
+
+                <img src="src/play_button.svg" class="header_img1" alt="...">
+                <img src="Images/header/album2-1.jpg" class="header_img4" alt="...">
+                <img src="Images/header/album2-2.jpg" class="header_img5" alt="...">
+                <img src="Images/header/album2-3.jpg" class="header_img6" alt="...">
+                <img src="Images/header/album2-4.jpg" class="header_img7" alt="...">
+                <img src="Images/header/album2-5.jpg" class="header_img8" alt="...">
+                <img src="Images/header/album2-6.jpg" class="header_img9" alt="...">
+                <img src="Images/header/album2-7.jpg" class="header_img10" alt="...">
+                <img src="Images/header/album2-8.jpg" class="header_img11" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <div class="header_introduce">폭신한 침대에 누워 듣고픈 코지팝</div>
+                <div class="header_introduce_2">총 16곡 | 2023.02.22</div>
+                <div id=header_int1>
+                    <div class="header_title">Never Not</div>
+                    <div class="header_singer">Lauv</div>
+                </div>
+                <div id=header_int2>
+                    <div class="header_title">Only Child</div>
+                    <div class="header_singer">Sasha Sloan</div>
+                </div>
+                <div id=header_int3>
+                    <div class="header_title">free love &#40;dream edit&#41; </div>
+                    <div class="header_singer">HONNE</div>
+                </div>
+                <div id=header_int4>
+                    <div class="header_title">Casual</div>
+                    <div class="header_singer">Jesse Barrera</div>
+                </div>
+                <div id=header_int5>
+                    <div class="header_title">blue</div>
+                    <div class="header_singer">Kamal.</div>
+                </div>
+                <div id=header_int6>
+                    <div class="header_title">bitterlove</div>
+                    <div class="header_singer">Ardhito Pramono</div>
+                </div>
+                <div id=header_int7>
+                    <div class="header_title">Constant</div>
+                    <div class="header_singer">Jesse Barrera</div>
+                </div>
+                <div id=header_int8>
+                    <div class="header_title">once in a moon</div>
+                    <div class="header_singer">Sarah Kang</div>
+                </div>
+
+
+                <img src="src/play_button.svg" class="header_img1" alt="...">
+                <img src="Images/header/album3-1.jpg" class="header_img4" alt="...">
+                <img src="Images/header/album3-2.jpg" class="header_img5" alt="...">
+                <img src="Images/header/album3-3.jpg" class="header_img6" alt="...">
+                <img src="Images/header/album3-4.jpg" class="header_img7" alt="...">
+                <img src="Images/header/album3-5.jpg" class="header_img8" alt="...">
+                <img src="Images/header/album3-6.jpg" class="header_img9" alt="...">
+                <img src="Images/header/album3-7.jpg" class="header_img10" alt="...">
+                <img src="Images/header/album3-8.jpg" class="header_img11" alt="...">
+            </div>
+
+            <div class="carousel-item">
+                <div class="header_introduce">따뜻한 감성의 카페와 어울리는 팝</div>
+                <div class="header_introduce_2">총 16곡 | 2023.02.22</div>
+                <div id=header_int1>
+                    <div class="header_title">Almost Is Never Enough</div>
+                    <div class="header_singer">Ariana Grande</div>
+                </div>
+                <div id=header_int2>
+                    <div class="header_title">Thinking out Loud</div>
+                    <div class="header_singer">Ed Sheeran</div>
+                </div>
+                <div id=header_int3>
+                    <div class="header_title">Get Away</div>
+                    <div class="header_singer">Jessie J</div>
+                </div>
+                <div id=header_int4>
+                    <div class="header_title">I Won't Give Up</div>
+                    <div class="header_singer">Jason Mraz</div>
+                </div>
+                <div id=header_int5>
+                    <div class="header_title">Liability</div>
+                    <div class="header_singer">Lorde</div>
+                </div>
+                <div id=header_int6>
+                    <div class="header_title">All I Do</div>
+                    <div class="header_singer">Yuna</div>
+                </div>
+                <div id=header_int7>
+                    <div class="header_title">Sandcastles</div>
+                    <div class="header_singer">Antoinette</div>
+                </div>
+                <div id=header_int8>
+                    <div class="header_title">That One Song</div>
+                    <div class="header_singer">Michael Carreon</div>
+                </div>
+
+                <img src="src/play_button.svg" class="header_img1" alt="...">
+                <img src="Images/header/album4-1.jpg" class="header_img4" alt="...">
+                <img src="Images/header/album4-2.jpg" class="header_img5" alt="...">
+                <img src="Images/header/album4-3.jpg" class="header_img6" alt="...">
+                <img src="Images/header/album4-4.jpg" class="header_img7" alt="...">
+                <img src="Images/header/album4-5.jpg" class="header_img8" alt="...">
+                <img src="Images/header/album4-6.jpg" class="header_img9" alt="...">
+                <img src="Images/header/album4-7.jpg" class="header_img10" alt="...">
+                <img src="Images/header/album4-8.jpg" class="header_img11" alt="...">
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="header_introduce">음색 깡패들과 팝하고 아름다운 노을</div>
+                <div class="header_introduce_2">총 16곡 | 2023.03.15</div>
+                <div id=header_int1>
+                    <div class="header_title">right here</div>
+                    <div class="header_singer">keshi</div>
+                </div>
+                <div id=header_int2>
+                    <div class="header_title">Waiting for You</div>
+                    <div class="header_singer">Aaron Kellim</div>
+                </div>
+                <div id=header_int3>
+                    <div class="header_title">willow</div>
+                    <div class="header_singer">Taylor Swift</div>
+                </div>
+                <div id=header_int4>
+                    <div class="header_title">Butterflies</div>
+                    <div class="header_singer">MAX</div>
+                </div>
+                <div id=header_int5>
+                    <div class="header_title">Anyone Else</div>
+                    <div class="header_singer">Joshua Bassett</div>
+                </div>
+                <div id=header_int6>
+                    <div class="header_title">Breathe &#40;Acoustic&#41;</div>
+                    <div class="header_singer">Astrid S</div>
+                </div>
+                <div id=header_int7>
+                    <div class="header_title">Heima</div>
+                    <div class="header_singer">Sigur Ros</div>
+                </div>
+                <div id=header_int8>
+                    <div class="header_title">always, i'll care</div>
+                    <div class="header_singer">Jeremy Zucker</div>
+                </div>
+                <img src="src/play_button.svg" class="header_img1" alt="...">
+                <img src="Images/header/album5-1.jpg" class="header_img4" alt="...">
+                <img src="Images/header/album5-2.jpg" class="header_img5" alt="...">
+                <img src="Images/header/album5-3.jpg" class="header_img6" alt="...">
+                <img src="Images/header/album5-4.jpg" class="header_img7" alt="...">
+                <img src="Images/header/album5-5.jpg" class="header_img8" alt="...">
+                <img src="Images/header/album5-6.jpg" class="header_img9" alt="...">
+                <img src="Images/header/album5-7.jpg" class="header_img10" alt="...">
+                <img src="Images/header/album5-8.jpg" class="header_img11" alt="...">
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
     <main>
-        <!-- 문서인 -->
+        <!-- main1 -->
         <main1>
             <div class="image-container1">
                 <div class="header">
-                    <div class="todaysong", style="float: left">
-                        <p><a href="https://www.music-flo.com/new/track?sortType=KPOP"> 오늘 발매 음악 
-                        <i class="fa-solid fa-chevron-right"></i></a></p>
-                     
+                    <div class="todaysong" , style="float: left">
+                        <p><a href="https://www.music-flo.com/new/track?sortType=KPOP"> 오늘 발매 음악
+                                <i class="fa-solid fa-chevron-right"></i></a></p>
+
                     </div>
-    
-    
-                    <div class="select", style="float: right">
-                          <ul>
-                                <li><a href="#", style="color: #3f3fff;">종합</a></li>
-                                <li><a href="#">국내</a></li>
-                                <li><a href="#">해외</a></li>
-                                <li><i class="fa-solid fa-chevron-left"></i></li>
-                                <li><i class="fa-solid fa-chevron-right", style="color: lightgray"></i></li>
-                                
-                            
-                          </ul>
+
+
+                    <div class="select" , style="float: right">
+                        <ul>
+                            <li><a href="#" , style="color: #3f3fff;">종합</a></li>
+                            <li><a href="#">국내</a></li>
+                            <li><a href="#">해외</a></li>
+                            <li><i class="fa-solid fa-chevron-left"></i></li>
+                            <li><i class="fa-solid fa-chevron-right" , style="color: lightgray"></i></li>
+                        </ul>
                     </div>
-        
+
                 </div>
-           
+
                 <br><br><br><br>
-    
+
                 <div class="mainsong">
                     <div class="song1">
-    
+
                         <div class="song">
-                            <img class="songim", src="main1/바람_코요태.jpg">
+                            <img class="songim" , src="Images/main1/바람_코요태.jpg">
                             <div>
                                 <p>바람</p>
                                 <P>코요테</P>
                             </div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-                            
+
                         </div>
-                        
+
                         <div class="song">
-                            <img class="songim", src="main1/My Cake for You-마리솔.jpg">
+                            <img class="songim" , src="Images/main1/My Cake for You-마리솔.jpg">
                             <div>
                                 <p>My Cake for You</p>
                                 <P>마리솔</P>
                             </div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-                        
+
                         <div class="song">
-                            <img class="songim", src="main1/A Midsummer NMIXX's Dream - NMIXX.jpg">
+                            <img class="songim" , src="Images/main1/A Midsummer NMIXX's Dream - NMIXX.jpg">
                             <div>
                                 <p>A NMIXX's Dream</p>
                                 <P>NMIXX</P>
                             </div></a>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
-                  
+
+
                         <div class="song">
-                            <img class="songim", src="main1/캘리포니아 해변 - 몽니.jpg">
+                            <img class="songim" , src="Images/main1/캘리포니아 해변 - 몽니.jpg">
                             <div>
                                 <p>캘리포니아 해변</p>
                                 <P>몽니</P>
                             </div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-                        
+
                         <div class="song">
-                            <img class="songim", src="main1/fallen angel - AVOKID.jpg">
+                            <img class="songim" , src="Images/main1/fallen angel - AVOKID.jpg">
                             <div>
                                 <p>fallen angel</p>
                                 <P>AVOKID</P>
                             </div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
+
                     </div>
-    
-    
-    
+
+
+
                     <div class="song2">
-    
+
                         <a href="#" class="song">
-                        <img class="songim", src="main1/Mercedes Girl - TK.jpg">
-                        <div>
-                            <p>Mercedes Girl</p>
-                            <P>TK</P>
-                        </div>
-                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-                       
-                        <a href="#" class="song">
-                        <img class="songim", src="main1/퀸덤퍼즐 - Various Artists.jpg">
-                        <div>
-                            <p>퀸덤퍼즐</p>
-                            <P>Various Artists</P>
-                        </div>
-                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-          
-                        <a href="#" class="song">
-                        <img class="songim", src="main1/나 없이도 - 성영주.jpg">
-                        <div>
-                            <p>나 없이도</p>
-                            <P>성영주</P>
-                        </div>
-                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-        
-                        <a href="#" class="song">
-                        <img class="songim", src="main1/Stranger - 정이찬.jpg">
-                        <div>
-                            <p>Stranger</p>
-                            <P>정이찬</P>
-                        </div>
-                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-        
-                        <a href="#" class="song">
-                        <img class="songim", src="main1/괜찮기로 해요 - 유니스&정재하.jpg">
-                        <div>
-                            <p>괜찮기로 해요</p>
-                            <P>유니스&정재하</P>
-                        </div></a>
-                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
-        
+                            <img class="songim" , src="Images/main1/Mercedes Girl - TK.jpg">
+                            <div>
+                                <p>Mercedes Girl</p>
+                                <P>TK</P>
+                            </div>
+                            <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+
+                            <a href="#" class="song">
+                                <img class="songim" , src="Images/main1/퀸덤퍼즐 - Various Artists.jpg">
+                                <div>
+                                    <p>퀸덤퍼즐</p>
+                                    <P>Various Artists</P>
+                                </div>
+                                <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+
+                                <a href="#" class="song">
+                                    <img class="songim" , src="Images/main1/나 없이도 - 성영주.jpg">
+                                    <div>
+                                        <p>나 없이도</p>
+                                        <P>성영주</P>
+                                    </div>
+                                    <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+
+                                    <a href="#" class="song">
+                                        <img class="songim" , src="Images/main1/Stranger - 정이찬.jpg">
+                                        <div>
+                                            <p>Stranger</p>
+                                            <P>정이찬</P>
+                                        </div>
+                                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+
+                                        <a href="#" class="song">
+                                            <img class="songim" , src="Images/main1/괜찮기로 해요 - 유니스&정재하.jpg">
+                                            <div>
+                                                <p>괜찮기로 해요</p>
+                                                <P>유니스&정재하</P>
+                                            </div>
+                                        </a>
+                                        <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
+
                     </div>
-    
+
                 </div>
-    
+
             </div>
-      
-    
-           
-    
+
+
+
+
             <div class="image-container2">
-    
-    
+
+
                 <div class="header">
-                    <div class="daily", style="float: left">
+                    <div class="daily" , style="float: left">
                         <p>#ㅍㅍ :7월 12일</p>
                     </div>
-                    
+
                 </div>
-    
+
                 <br><br><br><br>
-    
+
                 <div class="mainchart">
-    
-    
+
+
                     <div class="subchart">
-                        
-    
+
+
                         <div class="chart">
-                            <img class="chartim", src="main1/데일리 FLO크리에이터 P!ck 차트.png">
+                            <img class="chartim" , src="Images/main1/데일리 FLO크리에이터 P!ck 차트.png">
                             <div class="chart-name">데일리 FLO P!ck 차트</div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
+
                         <div class="chart">
-                            <img class="chartim", src="main1/데일리 발매곡 차트.png">
+                            <img class="chartim" , src="Images/main1/데일리 발매곡 차트.png">
                             <div class="chart-name">데일리 발매곡 차트</div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
+
                         <div class="chart">
-                            <img class="chartim", src="main1/위클리 FLO 해외 소셜 차트.png">
+                            <img class="chartim" , src="Images/main1/위클리 FLO 해외 소셜 차트.png">
                             <div class="chart-name">위클리 FLO 해외 소셜 차트</div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
+
                         <div class="chart">
-                            <img class="chartim", src="main1/핫데뷰 차트.png">
+                            <img class="chartim" , src="Images/main1/핫데뷰 차트.png">
                             <div class="chart-name">핫데뷰 차트</div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
+
                         <div class="chart">
-                            <img class="chartim", src="main1/데일리 SNS 공유하기 차트.png">
+                            <img class="chartim" , src="Images/main1/데일리 SNS 공유하기 차트.png">
                             <div class="chart-name">데일리 SNS 공유하기 차트</div>
                             <i class="fa-solid fa-play fa-2xl" style="color: #ffffff;"></i>
                         </div>
-    
-                        
+
+
                     </div>
-    
+
                 </div>
             </div>
 
         </main1>
 
-        <!-- 이광호 -->
+        <!-- main2 -->
+        <div class="main2">
+            <div class="contentContainer top20Container">
+                <div class="contentHeader">
+                    <div class="top20">
+                        <p>오늘 인기 오디오 TOP20</p>
+                        <p>지금 FLO에서 많이 듣는 오디오 프로그램</p>
+                    </div>
+
+                    <div class="sliderBtn">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+
+
+                <div class="mainContainer">
+                    <div class="subContainer top20SubContainer">
+                        <div class="card" style="position: relative;">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/갓쇼.jpg" alt="갓쇼의사이다썰" style="z-index: 10;">
+                            <div>
+                                <p>갓쇼의 사이다썰</p>
+                                <p>예능/미스테리</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/비밀보장.jpg" alt="비밀보장">
+                            <div>
+                                <p>송은이&middot;김숙 비밀보장</p>
+                                <p>예능/미스테리</p>
+                                <div class="up">
+                                    <span>UP</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/유니버스.jpg" alt="손경제유니버스">
+                            <div>
+                                <p>MBC 손에 잡히는 경제</p>
+                                <p>시사/경제</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/인형동화.jpg" alt="엄마의인형동화">
+                            <div>
+                                <p>엄마의 인형동화</p>
+                                <p>오디오드라마/오디오북</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/슈카월드.jpg" alt="슈카월드">
+                            <div>
+                                <p>슈카월드</p>
+                                <p>시사/경제</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="subContainer top20SubContainer">
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/모니샘.jpg" alt="모니샘">
+                            <div>
+                                <p>동화 들려주는 모니샘</p>
+                                <p>ASMR/힐링</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/콩순이.jpg" alt="콩순이">
+                            <div>
+                                <p>콩순이의 일기</p>
+                                <p>오디오드라마/오디오북</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/tigger.jpg" alt="tigger">
+                            <div>
+                                <p>Tigger ASMR</p>
+                                <p>ASMR/힐링</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/감자공주.jpg" alt="감자공주">
+                            <div>
+                                <p>감자공주의 동화나라</p>
+                                <p>오디오드라마/오디오북</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/라디오시대.jpg" alt="지금은라디오시대">
+                            <div>
+                                <p>MBC 지라시 '웃음이 묻어나는 편지'</p>
+                                <p>예능/미스테리</p>
+                            </div>
+                            <div class="up">
+                                <span>UP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contentContainer bestThemeContainer">
+                <div class="contentHeader">
+                    <div class="bestTheme">
+                        <p>#2023상반기 최다 인기 테마 BEST</p>
+                    </div>
+                </div>
+
+                <div class="mainContainer">
+                    <div class="subContainer bestThemeSubContainer">
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/다시여기바닷가.jpg" alt="다시여기바닷가">
+                            <div>
+                                <p>해변길 따라 달리면서 즐기는 K-여름</p>
+                            </div>
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/2ne1.jpg" alt="2ne1">
+                            <div>
+                                <p>전주 5초만에 맞히는 2010년대 띵곡</p>
+                            </div>
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="card">
+                            <div
+                                style="background-color: grey; opacity: 0.1; position: absolute; top: -9px; z-index: -10; border-radius: 15px; width: 155px; margin: 0 10px;">
+                                z-index -10 div
+                            </div>
+                            <div
+                                style="background-color: grey; opacity: 0.2; position: absolute; top: -5px; z-index: -5; border-radius: 10px; width: 165px; margin: 0 5px;">
+                                z-index -5 div
+                            </div>
+                            <img class="thumbNail" src="Images/main2/노을.jpg" alt="노을">
+                            <div>
+                                <p>9n년생 감수성 책임지던 발라드</p>
+                            </div>
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
     <footer>
         <!-- 이미지 클릭 시 로그인 팝업 -->
-        <a href="#"><img src="img_banner_home_discovery.868f7015.png" class="banner"></a>
+        <a href="#"><img src="Images/footer/img_banner_home_discovery.868f7015.png" class="banner"></a>
         <hr>
         <div class="menu">
             <ul class="menu-1">
@@ -245,10 +794,10 @@
                 </li>
             </ul>
             <ul class="menu-2">
-                <a href="#"><img src="icon_facebook.png"></a>
-                <a href="#"><img src="icon_instagram.png"></a>
-                <a href="#"><img src="icon_youtube.png"></a>
-                <a href="#"><img src="icon_twitter.png"></a>
+                <a href="#"><img src="Images/footer/icon_facebook.png"></a>
+                <a href="#"><img src="Images/footer/icon_instagram.png"></a>
+                <a href="#"><img src="Images/footer/icon_youtube.png"></a>
+                <a href="#"><img src="Images/footer/icon_twitter.png"></a>
             </ul>
         </div>
         <div class="info">
