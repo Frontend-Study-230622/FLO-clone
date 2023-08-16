@@ -1,0 +1,64 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+
+.carousel-control-prev {
+    position: absolute;
+    left: -110px;
+
+}
+
+.carousel-control-prev:after {
+    content: '';
+    display:inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    border-top: 0.2rem solid #000000;
+    border-right: 0.2rem solid #000000;
+    transform: rotate(225deg);
+}
+
+.carousel-control-next {
+    position: absolute;
+    left: 880px;
+}
+
+.carousel-control-next:after {
+    content: '';
+    display:inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    border-top: 0.2rem solid black;
+    border-right: 0.2rem solid black;
+    transform: rotate(45deg);
+}
+
+.carousel-inner .carousel-item {
+    background-color: none;
+}
+
+/* 1. 더 구체적인 선택자를 사용하여 스타일 적용 */
+.carousel-inner .carousel-item:nth-child(1) {
+    background-color: #ff0000;
+}
+
+.carousel-inner .carousel-item:nth-child(2) {
+    background-color: blue;
+}
+
+/* 2. !important 키워드 사용 */
+.carousel-inner .carousel-item:nth-child(3) {
+    background-color: green !important;
+}
+
+.carousel-inner .carousel-item:nth-child(4) {
+    background-color: gray !important;
+}
+
+.carousel-inner .carousel-item:nth-child(5) {
+    background-color: orange !important;
+}
