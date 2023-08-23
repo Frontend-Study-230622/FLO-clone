@@ -7,13 +7,9 @@
 23.07.12 ~ 23.08.23
 
 # 👥 멤버 구성
-[문서인](https://github.com/seOingg) - main1 담당
-
-[이광호](https://github.com/kwangHO00) - main2 담당
-
-[조하상](https://github.com/230109) - header 담당
-
-[최영은](https://github.com/YOUNG3UN) - footer 담당
+|[문서인](https://github.com/seOingg)| [이광호](https://github.com/kwangHO00) |[조하상](https://github.com/230109)|[최영은](https://github.com/YOUNG3UN)| 
+|------|---|---|---|
+|main1|main2|header|footer|
 
 # 📌 주요 기능 및 역할
 ### **FLO의 첫 화면입니다.**
