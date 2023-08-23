@@ -312,9 +312,14 @@ main1 ul {
 
 main1 li { padding: 6px }
 
-main1 .select a{
+main1 .select a {
     color: black;
     font-size: 12px;
+    text-decoration: none;
+}
+
+main1 .song2 a, main1 .todaysong a{
+    text-decoration: none;
 }
   
 main1 .image-container1, main1 .image-container2 {
@@ -324,6 +329,7 @@ main1 .image-container1, main1 .image-container2 {
 }
 
 main1 .song, main1 .chart {
+    position: relative;
     width: 175px;
     text-align: left;
     display: inline-block;
