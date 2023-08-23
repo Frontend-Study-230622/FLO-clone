@@ -518,6 +518,9 @@ main1 .fa-chevron-left:hover, main1 .fa-chevron-right:hover, main1 .song p:nth-c
     color: blue;
 }
 
+.hiddenCard{
+    visibility: hidden;
+}
 
 /*footer */footer {
     font-family: "Pretend Variable";
