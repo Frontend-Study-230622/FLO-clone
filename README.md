@@ -7,7 +7,7 @@
 23.07.12 ~ 23.08.23
 
 # 👥 멤버 구성
-|[문서인](https://github.com/seOingg)| [이광호](https://github.com/kwangHO00) |[조하상](https://github.com/crohasang)|[최영은](https://github.com/youngeun-0)| 
+|[문서인](https://github.com/seOingg)| [이광호](https://github.com/kwangHO00) |[조하상](https://github.com/crohasang)|[최영은](https://github.com/0eun2)| 
 |------|---|---|---|
 |main1|main2|header|footer|
 
